@@ -77,4 +77,24 @@ public class Main {
             System.out.println("Erro ao converter para decimal: " + e.getMessage());
         }
     }
+    // ----------------------------------------------------------------------
+    // Atividade 5 - Calculadora Simples
+    // ----------------------------------------------------------------------
+    public static void CalculadoraSimples(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.print("Digite o primeiro número: ");
+        double numero1 = Double.parseDouble(scanner.nextLine());
+
+        System.out.print("Digite o segundo número: ");
+        double numero2 = Double.parseDouble(scanner.nextLine());
+
+        System.out.println("Soma: " + (numero1 + numero2));
+        System.out.println("Subtração: " + (numero1 - numero2));
+        System.out.println("Multiplicação: " + (numero1 * numero2));
+        System.out.println("Divisão: " + (numero1 / numero2));
+
+    }
+
 }
