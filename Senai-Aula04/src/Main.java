@@ -36,9 +36,9 @@ public class Main {
     public  static void ConversaoDeDados (String[] args){
 
         // Promoção Automática
-        int numeroInt = 10;
-        double numeroDouble = numeroInt;
-        System.out.println(numeroDouble);
+        int nuInt = 10;
+        double numerDouble = nuInt;
+        System.out.println(numerDouble);
         System.out.println();
 
         // Casting Explícito
