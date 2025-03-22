@@ -22,7 +22,7 @@ public class Main {
                 System.out.println("A soma é: "+rest);
                 break;
             case 2:
-                int rest1 = calculadora.subtracao(50,2);
+                int rest1 = calculadora.subtracao(num2,num2);
                 System.out.println("A subtração é: "+rest1);
                 break;
             case 3:
@@ -40,9 +40,6 @@ public class Main {
             default:
                 System.out.println("Opção incorreta");
         }
-        System.out.println("--------------------------------------------------------------------");
-        System.out.println("Conversor de Temperatura");
-        System.out.println("--------------------------------------------------------------------");
 
     }
 }
