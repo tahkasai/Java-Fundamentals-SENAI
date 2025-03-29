@@ -30,8 +30,8 @@ public class Aluno {
     @Override
     public String toString(){
 
-        return  "Aluno: " + nomeAluno + 
-                ", Idade: " + idadeAluno +
+        return  "Aluno: " + nomeAluno + '\''+
+                ", Idade: " + idadeAluno + '\''+
                 ", Matrícula: " + matriculaAluno;
     }
 }
