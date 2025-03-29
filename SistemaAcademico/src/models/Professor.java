@@ -5,7 +5,7 @@ public class Professor {
     private String disciplina;
     private int idadeProfessor;
 
-    public Professor(String nomeProfessor, String disciplina) {
+    public Professor(String nomeProfessor, String disciplina, int idadeProfessor) {
         this.nomeProfessor = nomeProfessor;
         this.disciplina = disciplina;
         this.idadeProfessor = idadeProfessor;
