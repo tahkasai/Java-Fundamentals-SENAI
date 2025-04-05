@@ -1,6 +1,6 @@
 package Models;
 
-abstract class Pessoa {
+public abstract class Pessoa {
     // Variáveis
     protected String nomePessoa;
     protected int idadePessoa;
