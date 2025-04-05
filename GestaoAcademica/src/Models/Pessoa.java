@@ -20,4 +20,5 @@ abstract class Pessoa {
         return idadePessoa;
     }
 
+    public abstract String getDescricao();
 }
