@@ -1,6 +1,6 @@
 package Models;
 
-public abstract class Cliente extends Pessoa {
+public class Cliente extends Pessoa {
     private String planoCliente;
 
     // construtor
