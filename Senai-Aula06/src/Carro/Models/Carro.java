@@ -1,6 +1,8 @@
-package Models;
+package Carro.Models;
 
 public class Carro extends Veiculo {
+    public Long Id;
+
     public String modelo;
     public String cor;
     public int ano;
