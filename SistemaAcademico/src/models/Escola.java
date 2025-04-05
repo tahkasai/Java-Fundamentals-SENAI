@@ -5,6 +5,8 @@ public class Escola {
     private String nomeEscola;
     private ArrayList<Aluno> alunos;
     private ArrayList<Professor> professores;
+    private ArrayList<Turma> turmas;
+    private ArrayList<Disciplina> disciplina;
 
     public Escola(String nomeEscola) {
         this.nomeEscola = nomeEscola;
@@ -18,6 +20,28 @@ public class Escola {
 
     public void adicionarProfessor(Professor professor){
         professores.add(professor);
+    }
+
+    public void setDisciplina(ArrayList<Disciplina> disciplina){
+        this.disciplina = disciplina;
+    }
+
+    public void setTurma(ArrayList<Turma> turma){
+        this.turmas = turma;
+    }
+
+    public void listaTurmas(){
+        System.out.println("Lista das turmas");
+        for (Turma turma:turmas) {
+            System.out.println(turma);
+        }
+    }
+
+    public void listaDisciplina(){
+        System.out.println("Lista das disciplinas");
+        for (Disciplina disciplina:disciplina){
+            System.out.println(disciplina);
+        }
     }
 
     public void listaDeAlunos(){

@@ -12,14 +12,17 @@ public class Professor {
     }
 
     public String getNomeProfessor() {
+
         return nomeProfessor;
     }
 
     public String getDisciplina() {
+
         return disciplina;
     }
 
     public int getIdadeProfessor() {
+
         return idadeProfessor;
     }
 
