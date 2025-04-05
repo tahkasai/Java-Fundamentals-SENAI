@@ -1,6 +1,6 @@
 package Models;
 
-public class Pessoa {
+abstract class Pessoa {
     // Variáveis
     protected String nomePessoa;
     protected int idadePessoa;
@@ -15,11 +15,9 @@ public class Pessoa {
     public String getNomePessoa() {
         return nomePessoa;
     }
+
     public int getIdade() {
         return idadePessoa;
     }
-
-    //
-
 
 }
